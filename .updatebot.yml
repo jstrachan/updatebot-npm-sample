@@ -1,5 +1,5 @@
 github:
   organisations:
-  - name: fabric8-ui
+  - name: jstrachan-testing
     includes:
     - fabric8-npm-dependencies
