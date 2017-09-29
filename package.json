@@ -1,0 +1,15 @@
+{
+  "name": "fabric8-npm-dependencies",
+  "description": "A collection of Angular components and other useful things to be shared.",
+  "version": "0.0.0-development",
+  "dependencies": {
+    "fabric8-planner": "0.36.0",
+    "fabric8-npm-pipeline-test-prj": "0.0.3",
+    "ngx-base": "2.1.0", 
+    "ngx-fabric8-wit": "6.18.11",
+    "ngx-login-client": "1.1.5",
+    "ngx-widgets": "2.1.4",
+    "fabric8-stack-analysis-ui": "0.7.0"
+  },
+  "license": "MIT"
+}
