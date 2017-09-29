@@ -1,8 +1,12 @@
 node {
-    checkout scm
+    stage('Release') { 
+        git 'https://github.com/jstrachan-testing/updatebot-npm-sample.git'
 
-    // TODO do the actual release first...
-    
-    // now lets push the release out
-    updateBotPush()
+        // TODO do the actual release first...
+    }
+    stage('UpdateBot') {
+        // now lets push the release out
+        updateBotPush()
+    }
 }
+    
