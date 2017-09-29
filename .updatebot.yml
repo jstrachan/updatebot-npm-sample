@@ -2,4 +2,4 @@ github:
   organisations:
   - name: fabric8-ui
     includes:
-    - ngx*
+    - fabric8-npm-dependencies
