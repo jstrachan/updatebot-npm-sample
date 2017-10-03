@@ -1,18 +1,11 @@
 node {
-    /*
     stage('Release') { 
-    */
-        git 'https://github.com/jstrachan-testing/updatebot-npm-sample.git'
+        git 'https://github.com/jstrachan/updatebot-npm-sample.git'
 
-        // TODO do the actual release first...
-    /*
     }
     stage('UpdateBot') {
-    */
-        // now lets push the release out
-        updateBotPush()
-    /*
+        // now lets make pull requests on downstream projects
+        updateBotPush
     }
-    */
 }
     
